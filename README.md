@@ -36,6 +36,7 @@ docker build -t downloadwx . && docker run downloadwx
 
 - ``GET /``: list all downloads
 - ``GET /add/:base64``: start a download
+- ``POST /add``: start a download with the param ``url``
 - ``GET /pause/:id``: pause a download
 - ``GET /resume/:id``: resume a download
 
