@@ -8,11 +8,28 @@ Multi-File download via web api.
 make
 ```
 
+### Requirements
+
+- crystal ``v0.19``
+- wget
+
 
 ## Usage
 
 ```
 ./downloadwx --port 3000 --listen 127.0.0.1
+```
+
+### Inside a docker
+
+If you are using docker-compose:
+```sh
+docker-compose build && docker-compose up
+```
+
+Else, you can do:
+```sh
+docker build -t downloadwx . && docker run downloadwx
 ```
 
 ### API HTTP
