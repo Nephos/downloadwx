@@ -3,7 +3,7 @@ FROM greyltc/archlinux
 MAINTAINER Arthur Poulet <arthur.poulet@mailoo.org>
 
 # Install crystal
-RUN pacman -Syu --noprogressbar --noconfirm crystal shards llvm35 llvm35-libs clang35 base-devel libxml2
+RUN pacman -Syu --noprogressbar --noconfirm crystal shards llvm35 llvm35-libs clang35 base-devel libxml2 curl wget
 
 # Install shards
 WORKDIR /usr/local
