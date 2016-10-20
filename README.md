@@ -1,18 +1,26 @@
 # downloadwx
 
-TODO: Write a description here
+Multi-File download via web api.
 
 ## Installation
 
-
-TODO: Write installation instructions here
+```
+make
+```
 
 
 ## Usage
 
+```
+./downloadwx --port 3000 --listen 127.0.0.1
+```
 
+### API HTTP
 
-TODO: Write usage instructions here
+- ``GET /``: list all downloads
+- ``GET /add/:base64``: start a download
+- ``GET /pause/:id``: pause a download
+- ``GET /resume/:id``: resume a download
 
 ## Development
 
