@@ -42,7 +42,11 @@ docker build -t downloadwx . && docker run downloadwx
 
 ## Development
 
-TODO: Write development instructions here
+### TODO
+
+- handle download by segment
+- use only curl
+- handle speed limitations and priorities (see TC)
 
 ## Contributing
 

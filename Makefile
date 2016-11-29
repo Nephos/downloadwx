@@ -1,4 +1,4 @@
-NAME=downloadwx
+NAME=`ls src/*/ -d | cut -f2 -d'/'`
 
 all: deps_opt build
 
