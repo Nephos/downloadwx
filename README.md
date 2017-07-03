@@ -10,7 +10,7 @@ make
 
 ### Requirements
 
-- crystal ``v0.19``
+- crystal ``v0.23``
 - wget
 
 

@@ -15,7 +15,7 @@ deps:
 deps_update:
 	crystal deps update
 deps_opt:
-	@[ -d libs/ ] || make deps
+	@[ -d lib/ ] || make deps
 doc:
 	crystal docs
 
